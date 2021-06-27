@@ -1,7 +1,5 @@
-// const { ApolloServer, gql } = require("apollo-server");
 const express = require("express");
 const { ApolloServer, gql } = require("apollo-server-express");
-// import apolloServerExpress from "apollo-server-express";
 
 const typeDefs = gql`
   enum DogeBreed {
